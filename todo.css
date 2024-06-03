@@ -1,0 +1,114 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items:safe;
+    justify-content: center;
+    background: linear-gradient(#41D3BD 50%, #BEEF9E 50%);
+}
+
+.todo{
+    margin-top: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 33px 2px rgba(0,0,0,0.23);
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 30%;
+    margin-bottom: 30px;
+}
+
+.para{
+
+}
+
+.wrapper input{
+    border: none;
+    width: 75%;
+    height: 40px;
+    border-bottom: 2px solid #EBEBEB;
+}
+
+.wrapper input:focus{
+    outline: none;
+}
+
+.add{
+    border: none;
+    background-color: #136F63;
+    width: 20%;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.parag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 11px 4px rgba(0,0,0,0.23);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.checkings{
+    padding: 10px;
+}
+
+.check{
+    margin-top: 5px;
+    appearance: none;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #EBEBEB;
+}
+
+.check:checked{
+    background-color: #136F63;
+    border: 1px solid #136F63;
+}
+
+/* Styling for the completed class */
+.completed {
+    text-decoration: line-through; 
+    color: #999; 
+    font-style: italic; 
+  }
+  
+  
+  /* Additional styles for the taskname */
+  .taskname {
+    font-size: 1rem;
+    position: relative;
+  }
+  button{
+    height: 40px;
+    border: none;
+    width: 30px;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .buttons{
+    margin-right: 15px;
+
+  }
+.edit{
+   background-color: #04A777; 
+}
+
+.delete{
+    background-color: #D1495B; 
+ }
